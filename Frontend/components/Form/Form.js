@@ -8,6 +8,7 @@ import {toast} from 'react-toastify';
 import CampaignFactory from '../../artifacts/contracts/Campaign.sol/CampaignFactory.json'
 import { useAlchemy } from '../Hooks/Connection';
 const FormState = createContext();
+import Link from 'next/link';
 
 const Form = () => {
 
@@ -123,7 +124,7 @@ const Form = () => {
             }
 
     
-          setAddress(campaignData.to);
+          setAddress(smartAccountAddress);
         }
     }
 
