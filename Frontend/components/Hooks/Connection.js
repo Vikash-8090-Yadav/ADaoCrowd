@@ -4,8 +4,8 @@ import {
   LightSmartContractAccount,
   getDefaultLightAccountFactoryAddress,
 } from "@alchemy/aa-accounts";
-import { ParticleNetwork } from "@particle-network/auth";
-import { ParticleProvider } from "@particle-network/provider";
+// import { ParticleNetwork } from "@particle-network/auth";
+// import { ParticleProvider } from "@particle-network/provider";
 import { LocalAccountSigner } from "@alchemy/aa-core";
 import { polygonMumbai } from "viem/chains";
 import { WalletClientSigner,  SmartAccountSigner } from "@alchemy/aa-core";
